@@ -1,0 +1,18 @@
+1. Install pipenv
+    $ pip install pipenv
+
+2. Go to the project folder and run command to activate VirtualEnvironment
+    $ pipenv shell
+
+3. Install required packages by the below command
+    $ pipenv install <package-name>
+
+4. Export requirements.txt file
+    $ pipenv requirements > requirements.txt
+
+5. Make a folder named "src"
+
+6. Under "src" folder create the django project with name "core"
+    $ django-admin startproject core .
+
+7. Split up settings file
